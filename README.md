@@ -32,10 +32,26 @@ This documentation is intended for:
 
 ## Screens (canonical list)
 
-All screen specs live under [screens/](./screens/). Each major screen follows the pattern — example:
+All screen specs live under [screens/](./screens/). The master navigation is [screens/index.md](./screens/index.md) — it includes the initial Landing ASCII diagram and direct links to each screen. Each major screen follows the pattern — example:
 - [screens/dashboard/index.md](./screens/dashboard/index.md) — overview + ASCII layout
 - [screens/dashboard/features.md](./screens/dashboard/features.md) — feature breakdown, APIs, UX, checklist
 
+Master navigation (screens linked from [screens/index.md](./screens/index.md)):
+- [Dashboard](./dashboard/index.md)
+- [Products](./products/index.md)
+- [Product Details](./product_details/index.md)
+- [Orders](./orders/index.md)
+- [Order Details](./order_details/index.md)
+- [Inventory](./inventory/index.md)
+- [CRM](./crm/index.md)
+- [Social](./social/index.md)
+- [Analytics](./analytics/index.md)
+- [Settings](./settings/index.md)
+- [Plugin Marketplace](./plugin_marketplace/index.md)
+- [Onboarding](./onboarding/index.md)
+- [Checkout](./checkout/index.md)
+- [Storefront Landing](./storefront_landing/index.md)
+- [Storefront Product](./storefront_product/index.md)
 Replace `dashboard` with the screen name you need (e.g., `products`, `orders`, `crm`, etc.).
 
 Canonical screens:
