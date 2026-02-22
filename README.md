@@ -32,9 +32,11 @@ This documentation is intended for:
 
 ## Screens (canonical list)
 
-All screen specs live under [screens/](./screens/). Each major screen follows the pattern:
-- [screens/<screen>/index.md](./screens/<screen>/index.md) — overview + ASCII layout
-- [screens/<screen>/features.md](./screens/<screen>/features.md) — feature breakdown, APIs, UX, checklist
+All screen specs live under [screens/](./screens/). Each major screen follows the pattern — example:
+- [screens/dashboard/index.md](./screens/dashboard/index.md) — overview + ASCII layout
+- [screens/dashboard/features.md](./screens/dashboard/features.md) — feature breakdown, APIs, UX, checklist
+
+Replace `dashboard` with the screen name you need (e.g., `products`, `orders`, `crm`, etc.).
 
 Canonical screens:
 - Dashboard — Admin landing (KPIs, widgets, plugin region)
@@ -105,8 +107,8 @@ Open the index: [screens/index.md](./screens/index.md) — master navigation and
 
 This repository is documentation/spec-first. To view screen docs:
 
-- Open [screens/index.md](./screens/index.md) (master navigation)
-- Open any screen folder: [screens/<screen>/index.md](./screens/<screen>/index.md) and [screens/<screen>/features.md](./screens/<screen>/features.md)
+-- Open [screens/index.md](./screens/index.md) (master navigation)
+-- Open any screen folder: e.g. [screens/dashboard/index.md](./screens/dashboard/index.md) and [screens/dashboard/features.md](./screens/dashboard/features.md)
 
 Implementation repo(s) should follow the architecture described here and reference these files as the canonical spec.
 
