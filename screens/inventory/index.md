@@ -15,8 +15,8 @@ ASCII Layout (detailed)
 | [Inventory]               |  [SKU] [Product Name] [Location Qty] [Reserved]      |
 | [Orders]                  |  [Available] [Actions: adjust | transfer | history]   |
 | [CRM]                     | ---------------------------------------------------- |
-| [Settings]                | LEFT PANE: Reorder suggestions, suggested PO         |
-|                          | RIGHT RAIL: import/export, stocktake tools            |
+| [Promotions]              | LEFT PANE: Reorder suggestions, suggested PO         |
+| [Settings]                | RIGHT RAIL: import/export, stocktake tools            |
 +----------------------------------------------------------------------------------+
 | FOOTER: last sync timestamp                                                   |
 +----------------------------------------------------------------------------------+
@@ -33,18 +33,16 @@ Navigation (clickable)
 - [Dashboard](../dashboard/index.md)
 - [Products](../products/index.md)
 - [Orders](../orders/index.md)
-- [Product Details](./product_details.md)
-- [CRM](./crm.md)
-- [Products](../products/index.md)
-- [Orders](../orders/index.md)
-- [Product Details](./product_details.md)
-- [CRM](./crm/index.md)
-- [Social](./social/index.md)
+- [Returns](../returns/index.md)
+- [Inventory](./index.md)
+- [CRM](../crm/index.md)
+- [Promotions](../promotions/index.md)
+- [Social](../social/index.md)
 - [Analytics](../analytics/index.md)
-- [Settings](./settings/index.md)
-- [Plugin Marketplace](./plugin_marketplace.md)
+- [Settings](../settings/index.md)
+- [Plugin Marketplace](../plugin_marketplace/index.md)
 - [Onboarding](../onboarding/index.md)
-- [Checkout](./checkout/index.md)
-- [Storefront Landing](./storefront_landing.md)
-- [Storefront Product](./storefront_product.md)
+- [Checkout](../checkout/index.md)
+- [Storefront Landing](../storefront_landing.md)
+- [Storefront Product](../storefront_product.md)
 

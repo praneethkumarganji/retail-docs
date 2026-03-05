@@ -15,9 +15,10 @@ ASCII Layout (detailed)
 | [Orders]                  | ---------------------------------------------------- |
 | [Inventory]               | PRODUCT TABLE:                                      |
 | [CRM]                     |  [Checkbox] [ID] [Name] [Variants] [Price] [Stock]   |
-| [Social]                  |  [Actions: Edit | Publish | Duplicate | More]        |
-| [Analytics]               | ---------------------------------------------------- |
-| [Settings]                | RIGHT RAIL: Import status, templates, help links     |
+| [Promotions]              |  [Actions: Edit | Publish | Duplicate | More]        |
+| [Social]                  | ---------------------------------------------------- |
+| [Analytics]               | RIGHT RAIL: Import status, templates, help links     |
+| [Settings]                |                                                    |
 +----------------------------------------------------------------------------------+
 | FOOTER: tenant info, version                                                   |
 +----------------------------------------------------------------------------------+
@@ -32,16 +33,18 @@ Navigation (clickable)
 
 - [Screens index](../index.md)
 - [Dashboard](../dashboard/index.md)
-- [Product Details](./product_details.md)
-- [Orders](./orders/index.md)
-- [Inventory](./inventory/index.md)
-- [CRM](./crm/index.md)
-- [Social](./social/index.md)
-- [Analytics](./analytics/index.md)
-- [Settings](./settings/index.md)
-- [Plugin Marketplace](./plugin_marketplace.md)
+- [Products](./index.md)
+- [Orders](../orders/index.md)
+- [Returns](../returns/index.md)
+- [Inventory](../inventory/index.md)
+- [CRM](../crm/index.md)
+- [Promotions](../promotions/index.md)
+- [Social](../social/index.md)
+- [Analytics](../analytics/index.md)
+- [Settings](../settings/index.md)
+- [Plugin Marketplace](../plugin_marketplace/index.md)
 - [Onboarding](../onboarding/index.md)
-- [Checkout](./checkout/index.md)
-- [Storefront Landing](./storefront_landing.md)
-- [Storefront Product](./storefront_product.md)
+- [Checkout](../checkout/index.md)
+- [Storefront Landing](../storefront_landing.md)
+- [Storefront Product](../storefront_product.md)
 

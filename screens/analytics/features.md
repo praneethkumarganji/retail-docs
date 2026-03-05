@@ -23,16 +23,30 @@ This document expands Analytics features into implementation steps, APIs, UX det
 - Data pipeline:
   - Event bus ingestion → metrics service → aggregated datasets.
 
-5) Data Freshness & Retention
+5) Billing, Revenue & Margin Reports
+- Purpose: provide store- and channel-level financial analytics.
+- Features:
+  - Reports for revenue, refunds, net, tax collected, and margin.
+  - Dimensions: time, store, channel, payment method, promotion, loyalty program, price list.
+- Integration:
+  - Uses the same underlying data as Billing & Settlements, but read-only and dashboard-oriented.
+
+6) Risk & Trust Analytics
+- Purpose: monitor fraud and risk patterns across stores and channels.
+- Features:
+  - Metrics for fraud/chargeback rates, held vs approved orders, and review outcomes.
+  - Breakdowns by store, payment method, geography, and device/channel.
+
+7) Data Freshness & Retention
 - Purpose: balance near-real-time vs batched pipelines; provide freshness indicators.
 - Implementation:
   - Streaming pipeline for recent events; batch re-processing for historical updates.
 
-6) Security & Access Control
+8) Security & Access Control
 - Roles: analytics.view, analytics.manage
 - Enforcement: BFF and dataset-level access controls.
 
-7) Implementation Checklist
+9) Implementation Checklist
 1. Create analytics folder with index and features docs.
 2. Implement report endpoints and streaming ingestion.
 3. Build dashboards and widget SDK support.

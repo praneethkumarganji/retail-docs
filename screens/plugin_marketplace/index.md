@@ -11,9 +11,9 @@ ASCII Layout (detailed)
 | NAV (left)                | MAIN: Plugin Cards Grid                              |
 | ------------------------- | ---------------------------------------------------- |
 | [Dashboard]               | PLUGIN CARD:                                         |
-| [Plugin Marketplace]      |  - logo, name, publisher, rating, price, install btn  |
-| [Settings]                | ---------------------------------------------------- |
-|                          | RIGHT RAIL: installed plugins, updates, settings      |
+| [Promotions]              |  - logo, name, publisher, rating, price, install btn  |
+| [Plugin Marketplace]      | ---------------------------------------------------- |
+| [Settings]                | RIGHT RAIL: installed plugins, updates, settings      |
 +----------------------------------------------------------------------------------+
 | FOOTER: terms, developer portal links                                          |
 +----------------------------------------------------------------------------------+

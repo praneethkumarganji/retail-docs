@@ -13,10 +13,11 @@ ASCII Layout (detailed)
 | [Dashboard]               | Filters: status, payment, fulfillment, date range    |
 | [Products]                | ORDER TABLE:                                         |
 | [Orders]                  |  [Order#] [Customer] [Channel] [Amount] [Status]     |
-| [Inventory]               |  [Actions: View | Capture | Refund | Notify]         |
-| [CRM]                     | ---------------------------------------------------- |
-| [Analytics]               | RIGHT RAIL: quick-export, saved filters, templates   |
-| [Settings]                | ---------------------------------------------------- |
+| [Returns]                 |  [Actions: View returns | Exchanges | Refunds]        |
+| [Inventory]               | ---------------------------------------------------- |
+| [CRM]                     | RIGHT RAIL: quick-export, saved filters, templates   |
+| [Promotions]              | ---------------------------------------------------- |
+| [Analytics]               |                                                    |
 +----------------------------------------------------------------------------------+
 | FOOTER: export links, pagination                                                  |
 +----------------------------------------------------------------------------------+
@@ -29,24 +30,20 @@ Shortcuts
 
 Navigation (clickable)
 
-- [Screens index](./index.md)
-- [Dashboard](./dashboard/index.md)
-- [Products](./products/index.md)
-- [Product Details](./product_details.md)
-- [Order Details](./order_details.md)
-- [Inventory](./inventory.md)
-- [CRM](./crm.md)
-- [Products](./products/index.md)
-- [Product Details](./product_details.md)
-- [Order Details](./order_details.md)
-- [Inventory](./inventory.md)
-- [CRM](./crm/index.md)
-- [Social](./social/index.md)
+- [Screens index](../index.md)
+- [Dashboard](../dashboard/index.md)
+- [Products](../products/index.md)
+- [Orders](./index.md)
+- [Returns](../returns/index.md)
+- [Inventory](../inventory/index.md)
+- [CRM](../crm/index.md)
+- [Promotions](../promotions/index.md)
+- [Social](../social/index.md)
 - [Analytics](../analytics/index.md)
-- [Settings](./settings/index.md)
-- [Plugin Marketplace](./plugin_marketplace.md)
+- [Settings](../settings/index.md)
+- [Plugin Marketplace](../plugin_marketplace/index.md)
 - [Onboarding](../onboarding/index.md)
-- [Checkout](./checkout/index.md)
-- [Storefront Landing](./storefront_landing.md)
-- [Storefront Product](./storefront_product.md)
+- [Checkout](../checkout/index.md)
+- [Storefront Landing](../storefront_landing.md)
+- [Storefront Product](../storefront_product.md)
 

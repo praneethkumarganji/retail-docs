@@ -11,8 +11,8 @@ ASCII Layout (detailed)
 | NAV (left)                | MAIN: Onboarding Form & Preview                      |
 | ------------------------- | ---------------------------------------------------- |
 | [Dashboard]               | LEFT: Tenant info form                                 |
-| [Onboarding]              | MIDDLE: Plan selection cards                            |
-|                          | RIGHT: Domain verification panel & status               |
+| [Promotions]              | MIDDLE: Plan selection cards                            |
+| [Onboarding]              | RIGHT: Domain verification panel & status               |
 |                          | ---------------------------------------------------- |
 |                          | ACTIONS: seed demo data, invite teammates               |
 +----------------------------------------------------------------------------------+

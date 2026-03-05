@@ -54,16 +54,32 @@ This document expands each Orders feature into implementation steps, APIs, UX de
 - Implementation:
   - Activity feed integration and email/push alerts for critical events.
 
-8) Security & Permissions
+8) Risk & Holds
+- Purpose: surface risk signals and support manual review of suspicious orders.
+- Features:
+  - Risk score and flags on orders (e.g., mismatched addresses, high value, prior fraud).
+  - Order states and filters for "On hold" / "Under review".
+  - Actions: place on hold, release, mark as fraudulent/safe.
+- Implementation:
+  - Risk evaluation via BFF or external service; results stored with orders.
+  - Activity log entries for hold/release decisions and reasons.
+
+9) Cross-screen Links (Returns, Billing & Support)
+- Purpose: connect Orders to related financial and support workflows.
+- Features:
+  - Links from Order Details to related Returns (RMAs), Billing & Settlements (invoices), and Support tickets.
+  - Inline summaries of outstanding returns/refunds and open tickets.
+
+10) Security & Permissions
 - Roles:
   - orders.read, orders.update, orders.refund, orders.fulfill
 - Enforcement:
   - BFF enforces tenant scoping and permission checks on all endpoints.
 
-9) Accessibility & Internationalization
+11) Accessibility & Internationalization
 - Ensure timeline and actions are keyboard-accessible and labeled; support RTL locales and localization for currency/date.
 
-10) Implementation Checklist
+12) Implementation Checklist
 1. Create orders folder and table components.
 2. Implement BFF endpoints and webhook handlers for payments.
 3. Implement order details page with timeline and actions.

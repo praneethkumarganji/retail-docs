@@ -12,11 +12,12 @@ ASCII Layout (detailed)
 | ----------------------------------------- | ---------------------------------------------------- |
 | [Dashboard]                               | TOP: Composer Toolbar (channel select, audience)     |
 | [Products]                                | ---------------------------------------------------- |
-| [Social]                                  | LEFT: Composer Panel                                  |
-| [Assets]                                  |  - fields: text, media uploads, captions, hashtags    |
-| [Analytics]                               |  - product tagging, preview, scheduling options       |
-| [Inbox]                                   | ---------------------------------------------------- |
-| [Settings]                                | MIDDLE: Calendar / Queue view                         |
+| [Promotions]                              | LEFT: Composer Panel                                  |
+| [Social]                                  |  - fields: text, media uploads, captions, hashtags    |
+| [Assets]                                  |  - product tagging, preview, scheduling options       |
+| [Analytics]                               | ---------------------------------------------------- |
+| [Inbox]                                   | MIDDLE: Calendar / Queue view                         |
+| [Settings]                                |  - calendar with scheduled posts, drag & drop         |
 |                                           |  - calendar with scheduled posts, drag & drop         |
 |                                           |  - queue list with reorder and bulk actions           |
 |                                           | ---------------------------------------------------- |

@@ -11,9 +11,9 @@ ASCII Layout (detailed)
 | NAV (left)                | MAIN: Settings Panels                                  |
 | ------------------------- | ---------------------------------------------------- |
 | [Dashboard]               | LEFT: Settings list (General, Billing, Users, API)     |
-| [Settings]                | ---------------------------------------------------- |
-| [Plugin Marketplace]      | MAIN: Selected panel                                   |
-|                          |  - General: branding, domain mapping, theme tokens     |
+| [Promotions]              | ---------------------------------------------------- |
+| [Settings]                | MAIN: Selected panel                                   |
+| [Plugin Marketplace]      |  - General: branding, domain mapping, theme tokens     |
 |                          |  - Billing: subscription, invoices, payment method     |
 |                          |  - Users: invite, roles, permissions                   |
 |                          |  - Feature flags: toggle per-tenant                    |

@@ -61,30 +61,57 @@ This document expands each Products feature into implementation steps, APIs, UX 
   - Pricing engine evaluates active promotions and computes final price in BFF.
   - Provide preview in editor and API to attach promotions to products.
 
-6) SEO & Structured Data
+6) Advanced Pricing & Price Lists
+- Purpose: support multi-store, multi-segment, and multi-region pricing.
+- Features:
+  - Define reusable price lists (e.g., Retail_USD, Wholesale_EU, VIP_Tier_2).
+  - Assign price lists to products/variants and link them to stores and segments/tiers.
+  - Per-store price overrides for sales and local adjustments.
+- APIs:
+  - GET /bff/price-lists
+  - POST /bff/price-lists
+  - POST /bff/products/:id/prices
+- Integration:
+  - Stores screen maps stores to default price lists.
+  - Loyalty and CRM define segments/tiers that reference price lists.
+
+7) Gift Card & Store Credit Products
+- Purpose: support selling gift cards and managing store credit balances.
+- Features:
+  - Gift card product type with fixed or variable load amounts.
+  - SKU and metadata for digital vs physical gift cards.
+  - Hooks into finance layer to generate and manage gift card/store credit balances.
+- APIs:
+  - POST /bff/products/gift-cards (create definitions)
+  - GET /bff/products/gift-cards
+- Integration:
+  - Checkout issues or updates balances when gift cards are purchased or redeemed.
+  - Billing & Settlements and Returns reflect store credit usage and liabilities.
+
+8) SEO & Structured Data
 - Purpose: optimize product pages for search and social.
 - Implementation:
   - Editor allows meta title/description, canonical URL, JSON-LD preview.
   - Server-side rendering (SSR) injects structured data for crawlers.
 
-7) Drafts, Versioning & Audit
+9) Drafts, Versioning & Audit
 - Purpose: authoring workflow with history.
 - Implementation:
   - Store draft versions and allow compare/rollback; provide audit log per product.
 
-8) Performance & Caching
+10) Performance & Caching
 - List endpoints should return compact payloads; leverage CDN for media and ISR for storefront pages.
 
-9) Permissions & RBAC
+11) Permissions & RBAC
 - Roles:
   - product.read, product.write, product.publish, product.import
 - Enforcement:
   - Host checks UI-level permissions; BFF enforces on every request.
 
-10) Accessibility
+12) Accessibility
 - Use accessible table patterns, keyboard navigation, aria labels for form fields, and ensure forms are screen-reader friendly.
 
-11) Implementation Checklist
+13) Implementation Checklist
 1. Create products folder and design tokens for table/list components.
 2. Implement BFF list, counts, and import endpoints.
 3. Implement editor UI with draft/publish flow and media uploader.

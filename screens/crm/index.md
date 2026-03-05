@@ -14,8 +14,8 @@ ASCII Layout (detailed)
 | [CRM]                     |  - [Name] [Email] [Lifetime Value] [Orders]           |
 | [Orders]                  | ---------------------------------------------------- |
 | [Products]                | RIGHT: Customer Profile & Activity                     |
-| [Settings]                |  - Orders history, interactions, notes                 |
-|                          | ---------------------------------------------------- |
+| [Promotions]              |  - Orders history, interactions, notes                 |
+| [Settings]                | ---------------------------------------------------- |
 |                          | SEGMENTS: dynamic/static segment builder               |
 +----------------------------------------------------------------------------------+
 | FOOTER: consent & GDPR tools                                                  |

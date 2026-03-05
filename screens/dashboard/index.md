@@ -15,9 +15,10 @@ ASCII Layout (detailed)
 | [Orders]                                  | Quick Actions: [Create Product] [Create Campaign]   |
 | [Inventory]                               | Date/Period selector | timezone | refresh | export   |
 | [CRM]                                     | -------------------------------------------------- |
-| [Social]                                  | ROW 1 (Widgets):                                   |
-| [Analytics]                               |  ┌──────────────────────┬─────────────────────────┐ |
-| [Settings]                                |  │ Sales Chart (2/3)    │ Recent Orders (1/3)     │ |
+| [Promotions]                              | ROW 1 (Widgets):                                   |
+| [Social]                                  |  ┌──────────────────────┬─────────────────────────┐ |
+| [Analytics]                               |  │ Sales Chart (2/3)    │ Recent Orders (1/3)     │ |
+| [Settings]                                |  │ Low-stock     │ Campaign Performance           │ |
 |                                           |  │ - period selector     │ - list, inline actions  │ |
 |                                           |  └──────────────────────┴─────────────────────────┘ |
 |                                           | -------------------------------------------------- |
